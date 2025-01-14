@@ -14,7 +14,8 @@ int main(void)
     while (!WindowShouldClose())
     {
         BeginDrawing();
-            
+            ClearBackground(Color{ 0, 121, 241, 255 });
+            DrawText("Hello World",screenWidth/2 - 120,screenHeight/2 - 20,50, RAYWHITE);
         EndDrawing();
     }
 
