@@ -1,8 +1,8 @@
+#include "basicWindow.h"
 #include <iostream>
-#include <raylib.h>
 
 
-int main(void)
+int basicWindow(void)
 {
     const int screenWidth = 800;
     const int screenHeight = 450;
