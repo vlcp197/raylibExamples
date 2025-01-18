@@ -2,8 +2,8 @@
 #include "basicWindow.h"
 #include "camera2D.h"
 
-int main()
-{
+int main(){
+    
     // basicWindow();
     // basicScreenManager();
     camera2D();
